@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/intro_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:elevation="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+
+            android:text="건너뛰기"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="8"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:elevation="10dp"
+        android:background="@drawable/intro_card_white">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/img_intro_2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_marginTop="40dp"
+                android:textColor="#000000"
+                android:gravity="center_horizontal"
+                android:text="변호사한테 물어보자니\n상담비용이 더 들텐데...\n\n그냥 참고 넘어가시려구요?"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:elevation="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="다음"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:elevation="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="2"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:elevation="10dp">
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:elevation="10dp">
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="9dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:elevation="10dp"
+                android:background="@drawable/intro_unselected">
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="9dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:elevation="10dp"
+                android:background="@drawable/intro_selected">
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="9dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:elevation="10dp"
+                android:background="@drawable/intro_unselected">
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="2"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:elevation="10dp">
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
