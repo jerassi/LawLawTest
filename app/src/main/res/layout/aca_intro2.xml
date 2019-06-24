@@ -16,10 +16,10 @@
         android:elevation="10dp">
 
         <TextView
+            android:id="@+id/skip"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
-
             android:text="건너뛰기"
             android:textColor="#FFFFFF"
             android:textSize="15dp" />
@@ -70,6 +70,7 @@
         android:elevation="10dp">
 
         <TextView
+            android:id="@+id/next"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="다음"
